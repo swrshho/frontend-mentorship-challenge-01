@@ -140,6 +140,11 @@ a {
           box-shadow: 2px 4px 7px #5c5c5c;
 }
 
+.header__img .cta-joinUs:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 .hero #hero-title {
   font-size: 3rem;
   color: #515151;
@@ -183,7 +188,11 @@ a {
   background: -webkit-gradient(linear, left bottom, left top, from(black), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(0deg, black, rgba(0, 0, 0, 0));
   width: 100%;
-  height: 100%;
+  height: 80%;
+}
+
+.hero__trips-section .trip:hover {
+  opacity: 0.8;
 }
 
 .hero__trips-section .trip-1 {
@@ -220,13 +229,17 @@ a {
   position: relative;
 }
 
+.hero__missing-section:hover {
+  opacity: 0.8;
+}
+
 .hero__missing-section::before {
   content: "";
   position: absolute;
   background: -webkit-gradient(linear, left bottom, left top, from(black), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(0deg, black, rgba(0, 0, 0, 0));
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 
 .hero__missing-section .missing {
@@ -258,6 +271,11 @@ a {
   border-radius: 16px;
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+.hero__missing-section .missing .cta-learnMore:hover {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .more {
@@ -303,6 +321,10 @@ a {
   .more__images-article {
     width: 30%;
   }
+}
+
+.more__images-article:hover {
+  opacity: 0.8;
 }
 
 .more__images-article-text {

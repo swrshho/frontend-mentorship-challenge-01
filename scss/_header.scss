@@ -51,6 +51,11 @@
       padding: 1rem 3rem;
       border-radius: 0 14px;
       box-shadow: 2px 4px 7px $lightBlack;
+
+      &:hover {
+        background-color: $black;
+        color: $white;
+      }
     }
   }
 }
