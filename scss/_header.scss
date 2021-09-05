@@ -21,12 +21,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 37.5rem;
+    height: 80vh;
     padding-left: 2rem;
     margin-bottom: 2rem;
 
+    @include breakpoint-up(xlarge) {
+      background-position: bottom;
+    }
+
     .header-text {
-      width: fit-content;
+      width: 90%;
+      @include breakpoint-up(xlarge) {
+        width: 50%;
+      }
     }
 
     h1 {

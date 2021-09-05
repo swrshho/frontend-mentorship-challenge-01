@@ -15,9 +15,34 @@
         font-weight: 500;
         font-family: "Roboto";
       }
+
+      > .links-item:not(:last-child) {
+        margin-bottom: 1.5rem;
+      }
     }
     width: 90%;
     margin-bottom: 2rem;
+
+    &-links {
+      @include breakpoint-up(xlarge) {
+        flex-direction: row;
+        flex: 2;
+        max-width: 55rem;
+      }
+    }
+
+    &-social {
+      @include breakpoint-up(xlarge) {
+        flex-direction: row;
+        flex: 1;
+        max-width: 30rem;
+      }
+      .social-item {
+        a {
+          font-size: 1.7rem;
+        }
+      }
+    }
   }
 
   #slack-link {
