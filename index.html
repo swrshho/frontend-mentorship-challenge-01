@@ -16,21 +16,23 @@
   <main class="main">
 
     <header class="header">
-      <nav class="navbar">
+      <nav class="navbar flex jc-sb">
         <h1 id="logo">travel with us</h1>
         <i class="fas fa-user"></i>
       </nav>
 
-      <div class="header__img">
-        <h1 id="header__title">our journy begins here</h1>
-        <a href="#" class="cta-joinUs">join us</a>
+      <div class="header__img flex jc-c fd-c">
+        <div class="header-text flex fd-c ai-c">
+          <h1 class="rosario tt-n">Our journy begins here</h1>
+          <a href="#" class="cta-joinUs tt-n arial">join us</a>
+        </div>
       </div>
     </header>
 
-    <section class="hero">
-      <h1 id="hero__title">dream your next trip</h1>
+    <section class="hero flex fd-c ai-c">
+      <h1 class="rosario" id="hero-title">dream your next trip</h1>
 
-      <div class="hero__trips-section">
+      <div class="hero__trips-section flex fd-c jc-sb">
         <div class="trip trip-1">
           <h1 class="img-title">ayiya napa, cyprus</h1>
         </div>
@@ -40,65 +42,80 @@
         <div class="trip trip-3">
           <h1 class="img-title">kas, turkey</h1>
         </div>
-        
       </div>
 
-      <div class="hero__missing-section">
-        <div class="missing">
+      <div class="hero__missing-section flex">
+        <div class="missing flex fd-c">
           <h1 class="img-title">get more of what you've been missing.</h1>
-          <p>introducing tripadvisor plus. endless travel savings, one simple membership</p>
+          <p class="img-title">introducing tripadvisor plus. endless travel savings, one simple membership</p>
           <a href="#" class="cta-learnMore">learn more</a>
         </div>
       </div>
     </section>
 
     <section class="more">
-      <h1 class="img-title" id="more-title">more to explore</h1>
+      <h1 class="img-title tt-n" id="more-title">More to explore</h1>
 
-      <div class="more__images">
+      <div class="more__images flex fd-c ai-c">
         <div class="more__images-article">
-          <i class="far fa-heart"></i>
-          <h4 class="image-title" id="tripadvisor-title">from tripadvisor</h4>
-          <h3 class="image-title" id="tripadvisor-article-title">
-            the ultimate guide to road-tripping on route 66
-          </h3>
+          <div class="more__images-article-1 more-section-images">
+            <i class="far fa-heart"></i>
+          </div>
+
+          <div class="flex fd-c ai-c">
+            <h4 class="img-title">from tripadvisor</h4>
+            <h3 class="img-title">
+              the ultimate guide to road-tripping on route 66
+            </h3>
+          </div>
         </div>
         <div class="more__images-article">
-          <i class="far fa-heart"></i>
-          <h4 class="image-title" id="tripadvisor-title">from tripadvisor</h4>
-          <h3 class="image-title" id="tripadvisor-article-title">
-            the 10 best national parks for stargazing and aurora-viewing
-          </h3>
+          <div class="more__images-article-2 more-section-images">
+            <i class="far fa-heart"></i>
+          </div>
+
+          <div class="flex fd-c ai-c">
+            <h4 class="img-title">from tripadvisor</h4>
+            <h3 class="img-title">
+              the 10 best national parks for stargazing and aurora-viewing
+            </h3>
+          </div>
         </div>
+
         <div class="more__images-article">
-          <i class="far fa-heart"></i>
-          <h4 class="image-title" id="tripadvisor-title">from tripadvisor</h4>
-          <h3 class="image-title" id="tripadvisor-article-title">
-            spider-man spacemountain, and all the dole whip: the perfect disney weekend
-          </h3>
+          <div class="more__images-article-3 more-section-images">
+            <i class="far fa-heart"></i>
+          </div>
+          <div class="flex fd-c ai-c">
+            <h4 class="img-title">from tripadvisor</h4>
+            <h3 class="img-title">
+              spider-man spacemountain, and all the dole whip: the perfect disney weekend
+            </h3>
+          </div>
+          
         </div>
       </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer flex fd-c ai-c">
       <div class="section-separator"></div>
       
-      <div class="footer-lists">
-        <ul class="footer__links">
-          <li class="footer__links-item"><a href="#">status</a></li>
-          <li class="footer__links-item"><a href="#">privacy</a></li>
-          <li class="footer__links-item"><a href="#">terms</a></li>
-          <li class="footer__links-item"><a href="#">cookie preferences</a></li>
-          <li class="footer__links-item"><a href="#">contact us</a></li>
-          <li class="footer__links-item"><a href="#"><i class="fal fa-globe"></i> region <i class="fas fa-chevron-down"></i></a></li>
+      <div class="footer__lists flex jc-sb">
+        <ul class="footer__lists-links">
+          <li class="links-item"><a href="#">status</a></li>
+          <li class="links-item"><a href="#">privacy</a></li>
+          <li class="links-item"><a href="#">terms</a></li>
+          <li class="links-item"><a href="#">cookie preferences</a></li>
+          <li class="links-item"><a href="#">contact us</a></li>
+          <li class="links-item"><a href="#"><i class="fas fa-globe"></i></i> region <i class="fas fa-chevron-down"></i></a></li>
         </ul>
 
-        <ul class="footer__social">
-          <li class="footer__social-item"><a href="#" id="slack-link"><i class="fal fa-cloud-download"></i> download slack</a></li>
-          <li class="footer__social-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li class="footer__social-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-          <li class="footer__social-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
-          <li class="footer__social-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <ul class="footer__lists-social">
+          <li class="social-item"><a href="#" id="slack-link"><i class="fa fa-cloud-download-alt"></i> download slack</a></li>
+          <li class="social-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="social-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li class="social-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+          <li class="social-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
         </ul>
       </div>
       <p class="licence">© 2021 slack technologies, LLC, a salesforce company. all rights reserved. variouse trademarks held by their respective owners.</p>

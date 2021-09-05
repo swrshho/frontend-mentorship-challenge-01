@@ -1,0 +1,49 @@
+.header {
+  .navbar {
+    background-color: $cyan;
+    padding: 1rem 2rem;
+
+    #logo {
+      font-family: Arial;
+      font-weight: 300;
+      font-size: 3.2rem;
+      color: $white;
+    }
+
+    .fa-user {
+      color: $veryLightPink;
+      font-size: 3.2rem;
+    }
+  }
+
+  &__img {
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 37.5rem;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+
+    .header-text {
+      width: fit-content;
+    }
+
+    h1 {
+      font-size: 4rem;
+      color: $white;
+      margin-bottom: 4rem;
+      text-shadow: 2px 4px 7px $lightBlack;
+    }
+
+    .cta-joinUs {
+      background-color: $white;
+      color: $black;
+      width: fit-content;
+      font-size: 3rem;
+      padding: 1rem 3rem;
+      border-radius: 0 14px;
+      box-shadow: 2px 4px 7px $lightBlack;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.footer {
+  .section-separator {
+    width: 95%;
+    height: 0.1rem;
+    background-color: $lightGray;
+    margin: 3rem 0;
+  }
+
+  &__lists {
+    ul {
+      list-style: none;
+      a {
+        color: $black;
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: "Roboto";
+      }
+    }
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  #slack-link {
+    color: $cyan;
+  }
+
+  .licence {
+    font-family: "Roboto";
+    color: $gray;
+    margin: 1.5rem 0;
+  }
+}

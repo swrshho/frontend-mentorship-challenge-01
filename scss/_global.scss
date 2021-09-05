@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rosario&display=swap");
+
+// reseting browser settings
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+// layout classes
+
+.flex {
+  display: flex;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+// fonts
+
+.tt-n {
+  text-transform: none;
+}
+
+.img-title {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.rosario {
+  font-family: "Rosario";
+}
+
+.arial {
+  font-family: Arial;
+}
+
+// coloring
+a {
+  text-decoration: none;
+}
