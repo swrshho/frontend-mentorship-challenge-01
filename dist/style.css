@@ -138,6 +138,8 @@ a {
   border-radius: 0 14px;
   -webkit-box-shadow: 2px 4px 7px #5c5c5c;
           box-shadow: 2px 4px 7px #5c5c5c;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
 }
 
 .header__img .cta-joinUs:hover {
@@ -180,6 +182,13 @@ a {
       -ms-flex-align: end;
           align-items: flex-end;
   position: relative;
+  overflow: hidden;
+  -webkit-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
+}
+
+.hero__trips-section .trip:hover {
+  opacity: 0.8;
 }
 
 .hero__trips-section .trip::before {
@@ -189,10 +198,6 @@ a {
   background: linear-gradient(0deg, black, rgba(0, 0, 0, 0));
   width: 100%;
   height: 80%;
-}
-
-.hero__trips-section .trip:hover {
-  opacity: 0.8;
 }
 
 .hero__trips-section .trip-1 {
@@ -227,6 +232,8 @@ a {
       -ms-flex-align: end;
           align-items: flex-end;
   position: relative;
+  -webkit-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
 }
 
 .hero__missing-section:hover {
@@ -271,6 +278,8 @@ a {
   border-radius: 16px;
   font-size: 1.2rem;
   font-weight: 500;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
 }
 
 .hero__missing-section .missing .cta-learnMore:hover {
@@ -315,6 +324,8 @@ a {
   background-color: #ffffff;
   width: 100%;
   text-align: center;
+  -webkit-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
 }
 
 @media (min-width: 40em) {
@@ -340,6 +351,8 @@ a {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
 }
 
 .more__images-article .fa-heart:hover {

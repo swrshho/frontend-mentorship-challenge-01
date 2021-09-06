@@ -51,6 +51,7 @@
       padding: 1rem 3rem;
       border-radius: 0 14px;
       box-shadow: 2px 4px 7px $lightBlack;
+      transition: all 200ms ease-in;
 
       &:hover {
         background-color: $black;
